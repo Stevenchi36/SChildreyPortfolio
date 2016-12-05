@@ -4,9 +4,9 @@ $(document).ready(function() {
             //if you hard code, then use console
             //.log to determine when you want the 
             //nav bar to stick.  
-            var img = document.getElementById('headerIMG')
+            var img = document.getElementById('headerIMG');
             var height = img.clientHeight;
-            console.log($(window).scrollTop())
+            console.log($(window).scrollTop());
         if ($(window).scrollTop() > height) {
             $('nav').addClass('navbar-fixed');
             $('#brandItem').removeClass('hide');
