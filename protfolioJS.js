@@ -9,10 +9,12 @@ $(document).ready(function() {
         if ($(window).scrollTop() > height) {
             $('nav').addClass('navbar-fixed');
             $('#brandItem').removeClass('hide');
+            $('#aboutMe').css('marginTop','50px');
         }
         if ($(window).scrollTop() < height + 1) {
             $('nav').removeClass('navbar-fixed');
             $('#brandItem').addClass('hide');
+            $('#aboutMe').css('marginTop','0px');
         }
     });
 });
