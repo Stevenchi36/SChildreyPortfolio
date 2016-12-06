@@ -17,19 +17,19 @@ $(document).ready(function() {
         }
     });
 });
-
+//Make About the Active nav button
 function changeActiveAbout(){
     $('.aboutMe').addClass('active');
     $('.projects').removeClass('active');
     $('.contactMe').removeClass('active');
 }
-
+//Make Projects the Active nav button
 function changeActiveProj(){
     $('.aboutMe').removeClass('active');
     $('.projects').addClass('active');
     $('.contactMe').removeClass('active');
 }
-
+//Make Contact Me the Active nav button
 function changeActiveContact(){
     $('.aboutMe').removeClass('active');
     $('.projects').removeClass('active');
