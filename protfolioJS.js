@@ -1,9 +1,8 @@
 $(document).ready(function() {
   
     $(window).scroll(function () {
-            //if you hard code, then use console
-            //.log to determine when you want the 
-            //nav bar to stick.  
+            //Make nav bar fixed once it gets
+            //to the top of the browser page
             var img = document.getElementById('headerIMG');
             var height = img.clientHeight;
             console.log($(window).scrollTop());

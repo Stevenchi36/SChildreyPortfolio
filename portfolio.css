@@ -22,8 +22,8 @@ li:not(.contactMeList) {
     margin: auto;
 }
 li p {
-    color:white;
-    display:block;
+    color: white;
+    display: block;
     text-align: center;
     padding: 14px 16px;
     color: cornflowerblue;
@@ -52,7 +52,11 @@ li a:hover a:visited a:active{
 }
 .active {
     background-color: cornflowerblue;
+    color:white !important;
     text-decoration: none;
+}
+.active:hover {
+    color: white;
 }
 body {
     background-color: #bab6c1;
