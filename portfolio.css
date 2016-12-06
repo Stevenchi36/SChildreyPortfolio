@@ -7,7 +7,9 @@ ul {
 /*    position: fixed;*/
 /*    top: 0;*/
     width: 100%;
-    box-shadow: 0px 3px 3px grey !important;
+    -moz-box-shadow: 0px 0px 3px grey; 
+    -webkit-box-shadow: 0px 0px 3px grey; 
+    box-shadow: 0px 0px 3px grey;
 }
 li {
     float: left;
@@ -41,7 +43,7 @@ li a:hover:not(.active) {
     text-decoration: none;
     color: cornflowerblue;
 }
-li a:hover.active a:focus.active{
+li a:hover.active {
     text-decoration: none;
 }
 li a:focus.active {
