@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    
+    offsetAnchor();
     
     $(window).scroll(function () {
             //Make nav bar fixed once it gets
@@ -38,3 +38,15 @@ function changeActiveContact(){
     $('.projects').removeClass('active');
     $('.contactMe').addClass('active');
 }
+
+function offsetAnchor() {
+    if(location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 50);
+    }
+}
+
+$(window).on("hashchange", function () {
+    offsetAnchor();
+});
+
+window.setTimeout(offsetAnchor, 1);

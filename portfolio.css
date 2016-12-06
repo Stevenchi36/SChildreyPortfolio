@@ -77,13 +77,17 @@ img#headerIMG {
     width: 100%;
 }
 .aboutMeDiv {
-    /*  Will need to do this for each of the navigation link div's  */
-    padding-top: 50px;
-    margin-top: -50px !important;
+    padding-top: 30px;
 }
 .aboutMeInfoDiv {
     padding: 20px;
     height:390px;
     vertical-align: middle;
     text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px grey;
 }
