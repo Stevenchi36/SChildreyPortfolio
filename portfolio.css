@@ -61,6 +61,8 @@ li a:hover a:visited a:active{
 body {
     background-color: #bab6c1;
     min-height: 2000px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 img#headerIMG {
     display: block;
@@ -90,4 +92,5 @@ img#headerIMG {
     font-size: 50px;
     color: black;
     text-shadow: 2px 2px 4px grey;
+    padding-bottom: 20px;
 }
