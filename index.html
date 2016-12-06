@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="protfolioJS.js"></script>
 </head>
 <body>
     <div class="headImage">
@@ -14,10 +13,11 @@
     <nav class="hidden-xs">
         <ul>
             <li id="brandItem" class="hide"><p class="brand">Steven Childrey</p></li>
-            <li><a href="#news">About Me</a></li>
-            <li><a href="#contact">Projects</a></li>
-            <li style="float:right"><a class="active" href="#about">Contact Me</a></li>
+            <li><a href="#aboutMe" class="aboutMe" onClick="changeActiveAbout()">About Me</a></li>
+            <li><a href="#projects" class="projects" onClick="changeActiveProj()">Projects</a></li>
+            <li style="float:right"><a class="active contactMe" href="#contactMe" onClick="changeActiveContact()">Contact Me</a></li>
         </ul>
     </nav>
 </body>
+<script src="protfolioJS.js"></script>
 </html>

@@ -17,3 +17,21 @@ $(document).ready(function() {
         }
     });
 });
+
+function changeActiveAbout(){
+    $('.aboutMe').addClass('active');
+    $('.projects').removeClass('active');
+    $('.contactMe').removeClass('active');
+}
+
+function changeActiveProj(){
+    $('.aboutMe').removeClass('active');
+    $('.projects').addClass('active');
+    $('.contactMe').removeClass('active');
+}
+
+function changeActiveContact(){
+    $('.aboutMe').removeClass('active');
+    $('.projects').removeClass('active');
+    $('.contactMe').addClass('active');
+}

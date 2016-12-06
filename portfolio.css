@@ -11,7 +11,7 @@ ul {
 li {
     float: left;
 }
-.brand{
+.brand {
     margin: auto;
 }
 li p {
@@ -34,6 +34,12 @@ li a:hover:not(.active) {
     text-decoration: none;
     color: cornflowerblue;
 }
+li a:hover.active {
+    text-decoration: none;
+}
+li a:focus.active {
+    text-decoration: none;
+}
 li a:hover a:visited a:active{
     text-decoration: none;
 }
@@ -44,9 +50,6 @@ li a:hover a:visited a:active{
 body {
     background-color: #bab6c1;
     min-height: 2000px;
-}
-.headImage {
-    
 }
 img {
     display: block;
