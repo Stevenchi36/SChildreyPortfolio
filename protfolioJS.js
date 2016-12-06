@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  
+    
+    
+    
     $(window).scroll(function () {
             //Make nav bar fixed once it gets
             //to the top of the browser page

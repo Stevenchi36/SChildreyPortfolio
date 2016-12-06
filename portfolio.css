@@ -62,13 +62,23 @@ body {
     background-color: #bab6c1;
     min-height: 2000px;
 }
-img {
+img#headerIMG {
     display: block;
     margin: 0 auto;
+}
+.portrait {
+    margin: auto;
+    padding: 20px;
 }
 .navbar-fixed {
     top: 0;
     z-index: 100;
-  position: fixed;
+    position: fixed;
     width: 100%;
+}
+.aboutMeInfoDiv {
+    padding: 20px;
+    height:370px;
+    vertical-align: middle;
+    text-align: center;
 }
