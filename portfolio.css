@@ -114,9 +114,14 @@ img#headerIMG {
     padding-top: 30px;
 }
 .projImage {
+/*
     padding-top: 20px;
     padding-bottom: 10px;
+*/
     margin: auto;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    border: 1px solid #000;
 }
 .projInfo {
     text-align: center;
