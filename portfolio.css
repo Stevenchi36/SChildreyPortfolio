@@ -105,10 +105,22 @@ img#headerIMG {
     padding-bottom: 20px;
     padding-top: 30px;
 }
+.contactTitle {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px grey;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
 .projImage {
     padding-top: 20px;
     padding-bottom: 10px;
     margin: auto;
+}
+.projInfo {
+    text-align: center;
+    margin-bottom: 1px;
 }
 /*X-Small*/
 @media (max-width: 767px) {
@@ -135,9 +147,18 @@ img#headerIMG {
         padding-top: 100px;
 }
 
-
 /* Add to screen smaller than
 @media (max-width: 767px) {
 
 }
 */
+
+.projInfoTitle {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.projSkills {
+    text-align: center;
+}
