@@ -127,6 +127,22 @@ img#headerIMG {
     text-align: center;
     margin-bottom: 1px;
 }
+.projInfoTitle {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.projSkills {
+    text-align: center;
+}
+.contactMeLogos {
+    margin-top: 30px;
+}
+
+.logoLink {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 /*X-Small*/
 @media (max-width: 767px) {
     .aboutMeInfoDiv {
@@ -158,12 +174,4 @@ img#headerIMG {
 }
 */
 
-.projInfoTitle {
-    text-align: center;
-    font-weight: 800;
-    margin-bottom: 5px;
-}
 
-.projSkills {
-    text-align: center;
-}
