@@ -88,6 +88,7 @@ img#headerIMG {
     height:390px;
     vertical-align: middle;
     text-align: center;
+    line-height: 120%;
 }
 .title {
     text-align: center;
