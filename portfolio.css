@@ -110,6 +110,30 @@ img#headerIMG {
     padding-bottom: 10px;
     margin: auto;
 }
+/*X-Small*/
+@media (max-width: 767px) {
+    .aboutMeInfoDiv {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/*Small*/
+@media (max-width: 991px) and (min-width: 768px) {
+    .aboutMeInfoDiv {
+        padding-top: 60px;
+    }
+}
+/*MEDIUM*/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .aboutMeInfoDiv {
+        padding-top: 80px;
+    }
+}
+/*LARGE*/
+@media (min-width: 1200px) {
+    .aboutMeInfoDiv {
+        padding-top: 100px;
+}
 
 
 /* Add to screen smaller than
