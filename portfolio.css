@@ -149,7 +149,7 @@ img#headerIMG {
     margin-bottom: 30px;
     margin-top: 40px;
     color: black;
-    
+    text-shadow: 1px 1px 4px grey;
 }
 .email {
     font-size: 20px;
