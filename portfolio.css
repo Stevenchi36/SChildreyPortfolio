@@ -62,7 +62,6 @@ li a:hover a:visited a:active{
 }
 body {
     background-color: #bab6c1;
-    min-height: 2000px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
@@ -157,6 +156,21 @@ img#headerIMG {
     color: black;
     margin-top: 10px;
     margin-bottom: 40px;
+}
+.footNote{
+    float: right;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding: 1px;
+    font-size: 14px;
+    display: inline-block;
+}
+footer {
+    background-color: #c4c4c4;
+}
+.returnTop {
+    margin-left: 10px;
 }
 /*X-Small*/
 @media (max-width: 767px) {
