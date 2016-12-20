@@ -97,3 +97,18 @@ img#headerIMG {
     text-shadow: 2px 2px 4px grey;
     padding-bottom: 20px;
 }
+.projTitle {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px grey;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+
+/* Add to screen smaller than
+@media (max-width: 767px) {
+
+}
+*/
