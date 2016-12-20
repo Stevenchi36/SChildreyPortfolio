@@ -143,6 +143,21 @@ img#headerIMG {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+.emailTitle {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color: black;
+    
+}
+.email {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
 /*X-Small*/
 @media (max-width: 767px) {
     .aboutMeInfoDiv {
@@ -173,5 +188,3 @@ img#headerIMG {
 
 }
 */
-
-
