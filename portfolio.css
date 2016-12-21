@@ -53,7 +53,7 @@ li a:hover a:visited a:active{
     text-decoration: none;
 }
 .active {
-    background-color: cornflowerblue;
+    background-color: rgb(100, 149, 237);
     color:white !important;
     text-decoration: none;
 }
@@ -113,14 +113,15 @@ img#headerIMG {
     padding-top: 30px;
 }
 .projImage {
-/*
-    padding-top: 20px;
-    padding-bottom: 10px;
-*/
     margin: auto;
     margin-bottom: 7px;
     margin-top: 20px;
     border: 1px solid #000;
+}
+.projImage:hover {
+    -moz-box-shadow: 0px 3px 10px 5px rgba(100, 149, 237, 0.9); 
+    -webkit-box-shadow: 0px 3px 10px 5px rgba(100, 149, 237, 0.9); 
+    box-shadow: 0px 0px 10px 3px rgba(100, 149, 237, 0.9);
 }
 .projInfo {
     text-align: center;
