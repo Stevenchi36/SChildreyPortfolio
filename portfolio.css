@@ -184,6 +184,12 @@ footer {
         height: 100px;
         width: 100px;
     }
+    .projTitle, .title, .contactTitle {
+        font-size: 35px;
+    }
+    .emailTitle {
+        font-size: 30px;
+    }
 }
 /*Small*/
 @media (max-width: 991px) and (min-width: 768px) {
