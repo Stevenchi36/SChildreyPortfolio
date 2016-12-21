@@ -179,11 +179,19 @@ footer {
         padding-left: 50px;
         padding-right: 50px;
     }
+    .logoLink {
+        height: 100px;
+        width: 100px;
+    }
 }
 /*Small*/
 @media (max-width: 991px) and (min-width: 768px) {
     .aboutMeInfoDiv {
         padding-top: 60px;
+    }
+    .logoLink {
+        height: 125px;
+        width: 125px;
     }
 }
 /*MEDIUM*/
