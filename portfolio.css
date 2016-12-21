@@ -195,7 +195,9 @@ footer {
 /*LARGE*/
 @media (min-width: 1200px) {
     .aboutMeInfoDiv {
-        padding-top: 100px;
+        padding-top: 90px;
+        line-height: 175%;
+    }
 }
 
 /* Add to screen smaller than
