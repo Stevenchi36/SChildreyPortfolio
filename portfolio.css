@@ -6,9 +6,7 @@ ul {
     background-color: #333333;
 /*    position: fixed;*/
 /*    top: 0;*/
-    width: 100%;
-    -moz-box-shadow: 0px 3px 3px rgba(56, 56, 56, 0.5); 
-    -webkit-box-shadow: 0px 3px 3px rgba(56, 56, 56, 0.5); 
+    width: 100%; 
     box-shadow: 0px 3px 3px rgba(56, 56, 56, 0.5);
 }
 li {
@@ -118,9 +116,7 @@ img#headerIMG {
     margin-top: 20px;
     border: 1px solid #000;
 }
-.projImage:hover {
-    -moz-box-shadow: 0px 3px 10px 5px rgba(100, 149, 237, 0.9); 
-    -webkit-box-shadow: 0px 3px 10px 5px rgba(100, 149, 237, 0.9); 
+.projImage:hover { 
     box-shadow: 0px 0px 10px 3px rgba(100, 149, 237, 0.9);
 }
 .projInfo {
@@ -143,6 +139,10 @@ img#headerIMG {
 .logoLink {
     margin: 0 auto;
     margin-bottom: 30px;
+}
+.logoLink:hover {
+    -webkit-filter: invert(25%);
+    filter: invert(25%);
 }
 .emailTitle {
     font-size: 34px;
