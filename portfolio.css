@@ -141,8 +141,8 @@ img#headerIMG {
     margin-bottom: 30px;
 }
 .logoLink:hover {
-    -webkit-filter: invert(25%);
-    filter: invert(25%);
+    -webkit-filter: invert(15%);
+    filter: invert(15%);
 }
 .emailTitle {
     font-size: 34px;
